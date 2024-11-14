@@ -1,0 +1,177 @@
+body{font-family: Tahoma;
+background-color: #374158;}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #8c97bb;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #374158;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f9cf44;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  
+header {
+    background-color: #351b5b;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  
+  footer {
+    background-color: #374158;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  .all-news {
+      margin: 0;
+      padding: 5px;
+      background-color: #374158;
+      color: white;
+  }
+  .all-news > h1, .news{
+      margin: 10px;
+      padding: 5px;
+  }
+  .news {
+      background: white;
+  }
+  .news > h2, p {
+      margin: 4px;
+      font-size: 90%;
+      color: black;
+  }
+
+  .month {
+    padding: 70px 25px;
+    width: 95%;
+    background: #44a3e0;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: #f9cf44;
+    color: white !important
+  }
+  
+  /* Add media queries for smaller screens */
+  @media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+  }
+  
+  @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+  }
+  
+  @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+  }
+
+  .materialButton {
+    border-radius: 5%;
+    background-color: #8c97bb;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    display: inline-flex;
+  }
+
+  .clearFix {
+    clear:both;
+  }  
+
+  img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #8c97bb;
+  }
+
+  .col{
+    width: 50px;
+    float: inline-block;
+  }

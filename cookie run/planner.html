@@ -1,0 +1,42 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <link rel="styleSheet" href="styles.css">
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="cookieRunWebApp.html">Home</a>
+            <a href="bosses.html">Weekly Bosses</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="cookies.html">Cookies</a>
+          </div>
+          <span style="color:white;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Planner</span>
+          <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+                </script>
+        <div class=".clearFix"></div>
+        <p>Current Cookies</p>
+        <div class=".col">
+            <img src="images/Awakened_golden_cheese_illustration.webp" alt="Awakened_golden_cheese_illustration">
+            <img src="images/Burning_spice_default.webp" alt="Burning_spice_default">
+            <img src="images/Cream_ferret_illustration.webp" alt="Cream_ferret_illustration">
+            <img src="images/Mystic_flour_illustration.webp" alt="Mystic_flour_illustration">
+            <img src="images/Wind_archer_default.webp" alt="Wind_archer_default">
+        </div>
+        <hr>
+
+        <div class=".clearFix"></div>
+        <div class="materialButton">XP Jelly: 300,300/338,398
+          <br>
+          <img src="images/Exp_star_jelly_2.webp" alt="Exp_star_jelly_2">
+        </div>
+
+        <div class="materialButton">I am a material</div>
+    </body>
+</html>
